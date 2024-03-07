@@ -1,18 +1,26 @@
 body {
     color: #333333;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
 }
+
 h1 {
     background-image: url(../img/fundo.jfif);
 }
+
 h2 {
     border-bottom: 2px groove #333333;
 }
+
 figure {
     background-color: #F2EDED;
     border: 1px solid #cccccc;
     text-align: center;
 }
+
 figcaption {
     font-style: italic;
 }
