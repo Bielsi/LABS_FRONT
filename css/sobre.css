@@ -1,5 +1,16 @@
+/*Cor-base (body e h2)
+  cor-fundo-img (figure)
+  cor-borda-img(figure)
+*/
+
+:root{
+    --cor-base: #000000;
+    --cor-fundo-img: #808080;
+    --cor-borda-img: #8d0b0b;
+}
+
 body {
-    color: #333333;
+    color: var(--cor-base);
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -12,12 +23,13 @@ h1 {
 }
 
 h2 {
-    border-bottom: 2px groove #333333;
+    border-bottom: 2px groove var(--cor-base);
 }
 
 figure {
-    background-color: #F2EDED;
-    border: 1px solid #cccccc;
+    background-color: var(--cor-fundo-img);
+    border: 1px solid var(--cor-borda-img
+    );
     text-align: center;
 }
 
