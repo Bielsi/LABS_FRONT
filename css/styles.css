@@ -1,19 +1,26 @@
-:root{
-    --cor-primaria: #bd1e1ef1;
-    --cor-secundaria: #000cad;
-    --cor-destaque: #0093c0;
-    --cor-fundo: #5a5a5a;
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0000;
+    margin-bottom: 5px;
 }
 
-h1{
-    color: var(--cor-primaria);
+.amarelo{
+    background-color: yellow;
 }
 
-h2{
-    color: var(--cor-secundaria);
+.azul{
+    background-color: blue;
 }
 
-p{
-    color: var(--cor-destaque)
-    
+.vermelho{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.fonte-clara{
+    color: white;
 }
