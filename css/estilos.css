@@ -24,3 +24,7 @@ body {
     color: var(--cor-base);
     font-family: "Raleway", sans-serif;
 }
+
+a{
+    text-decoration: none;
+}
