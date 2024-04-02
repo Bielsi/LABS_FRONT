@@ -1,3 +1,9 @@
+:root{
+    --cor-base: #000000;
+    --cor-fundo-img: #dbdbdb;
+    --cor-borda-img: #949494;
+    --cor-menu: #17214b;
+}
 .sacola{
     background: url(../img/sacola.png) no-repeat top right;
     font-size: 14px;
@@ -11,10 +17,10 @@
 }
 
 .menu-opcoes a{
-    color: #003366;
+    color: var(--cor-menu);
 }
 
 body {
-    color: #333333;
-    font-family: "lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: var(--cor-base);
+    font-family: "Raleway", sans-serif;
 }
