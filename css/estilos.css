@@ -11,6 +11,9 @@
     padding-top: 8px;
     text-align: right;
     width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .menu-opcoes ul li{
@@ -21,6 +24,12 @@
 
 .menu-opcoes a{
     color: var(--cor-menu);
+}
+
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 body {
@@ -35,4 +44,8 @@ a{
 .container{
     margin: 0 auto;
     width: 90%;
+}
+
+header{
+    position: relative;
 }
