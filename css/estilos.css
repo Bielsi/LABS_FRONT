@@ -202,3 +202,21 @@ footer{
 .menu-departamentos li li a:before {
     content: "- ";
 }
+
+.painel {
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 4px #999;
+}
+
+.painel h2 {
+    text-shadow: 2px 3px 2px;
+    opacity: 50%;
+}
+
+.novidades {
+    background: linear-gradient(#f5dcdc, #bebef4);
+}
+
+.mais-vendidos {
+    background: linear-gradient(#dcdcf5, #f4bebe);
+}
